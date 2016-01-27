@@ -37,9 +37,10 @@ namespace D4T1
         {
             string line;
             int number;
+            Hissi hissi = new Hissi();
             while (true)
             {
-                Hissi hissi = new Hissi();
+                
                 Console.Write("floor number > ");
                 line = Console.ReadLine();
                 bool result = int.TryParse(line, out number);
