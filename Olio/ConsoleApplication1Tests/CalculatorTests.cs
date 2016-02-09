@@ -18,6 +18,7 @@ namespace ConsoleApplication1.Tests
             Calculator calc = new Calculator();
             int number1 = 5;
             int number2 = 7;
+
             int expected = 12;
 
             // act
